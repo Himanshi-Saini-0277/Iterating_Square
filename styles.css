@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.yellow {
+    height: 400px;
+    width: 400px;
+    background: yellow;
+    position: relative;
+    margin-top: 5px;
+}
+
+#red {
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.1s linear;
+}
